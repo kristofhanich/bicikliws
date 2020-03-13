@@ -1,0 +1,19 @@
+#footer
+{
+    margin-top: 32px;
+    width: 100%;
+}
+
+button {
+    background-color: #33ff00;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }

@@ -1,0 +1,16 @@
+services\IWheelDiameterService.class
+repositories\IBrandRepository.class
+repositories\IPurchaseRepository.class
+services\IBrandService.class
+services\IShifterService.class
+repositories\IBicycleRepository.class
+repositories\IShifterRepository.class
+repositories\IWheelDiameterRepository.class
+repositories\ISizeRepository.class
+services\IBicycleService.class
+repositories\ITypeRepository.class
+services\ITypeService.class
+services\IPurchaseService.class
+repositories\IUserRepository.class
+services\ISizeService.class
+services\IUserService.class

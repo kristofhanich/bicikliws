@@ -1,0 +1,11 @@
+.bg-background { background: #000; }
+.bg-primary { background: #121212; }
+.bg-accent { background: #33ff00; }
+.bg-light { background: #AAA; }
+.bg-white { background: #FFF; }
+
+.txt-background { color: #000; }
+.txt-primary { color: #121212; }
+.txt-accent { color: #33ff00; }
+.txt-light { color: #AAA; }
+.txt-white { color: #FFF; }

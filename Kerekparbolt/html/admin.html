@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/admin.css">
+
+    <link rel="stylesheet" href="css/header.css">
+    <!--Header-ben levő navbarhoz-->
+
+    <title>BringaWebshop - Admin felület</title>
+
+    <style>
+        .col {
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            position: relative;
+            left: 28%;
+
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body class="bg-background txt-white">
+
+    <div class="navbar">
+        <!--Header-ben levő navbar-->
+        <ul class="nav">
+            <li class="nav-item"><span class="nav-item-text">Bringa Webshop<span></li>
+            <li class="nav-item"><a class="nav-item-link" href="index.html">Login</a></li>
+            <li class="nav-item"><a class="nav-item-link" href="articles.html">Articles</a></li>
+            <li class="nav-item"><a class="nav-item-link" href="details.html">Details</a></li>
+            <li class="nav-item"><a class="nav-item-link" href="admin.html">Admin</a></li>
+        </ul>
+    </div>
+
+    <h1>Admin felület</h1>
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Uj modellek feltöltése</label><br>
+                <input type="text" name="b_nev" placeholder="Az uj modell neve"><br>
+                <input type="textarea" name="leiras" placeholder="Leírása"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő modell módosítása</label><br>
+                <input type="text" name="b_nev" placeholder="A modell régi neve"><br>
+                <input type="text" name="b_nev_uj" placeholder="A modell új neve"><br>
+                <input type="textarea" name="leiras" placeholder="A modell új leírása"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő modell törlése</label><br>
+                <input type="text" name="b_nev" placeholder="A törölni kívánt modell neve"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Uj fizetési mód feltöltése</label><br>
+                <input type="text" name="f_nev" placeholder="Az uj fizetési mód neve"><br>
+                <input type="textarea" name="leiras" placeholder="Leírása"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő fizetési mód módosítása</label><br>
+                <input type="text" name="f_nev" placeholder="A fizetési mód régineve"><br>
+                <input type="text" name="f_nev_uj" placeholder="A fizetési mód új neve"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő fizetési mód törlése</label><br>
+                <input type="text" name="f_nev" placeholder="A törölni kívánt fizetési mód neve"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Uj típus feltöltése</label><br>
+                <input type="text" name="t_nev" placeholder="Az uj típus neve"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő típus módosítása</label><br>
+                <input type="text" name="t_nev" placeholder="A típus régi neve"><br>
+                <input type="text" name="t_nev_uj" placeholder="A típus új neve"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő típus törlése</label><br>
+                <input type="text" name="b_nev" placeholder="A törölni kívánt típus neve"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Uj márka feltöltése</label><br>
+                <input type="text" name="m_nev" placeholder="Az uj márka neve"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő márka módosítása</label><br>
+                <input type="text" name="m_nev" placeholder="A márka régi neve"><br>
+                <input type="text" name="m_nev_uj" placeholder="A márka új neve"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő márka törlése</label><br>
+                <input type="text" name="m_nev" placeholder="A törölni kívánt márka neve"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Új váltó feltöltése</label><br>
+                <input type="text" name="v_nev" placeholder="Az uj váltó neve"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő váltó módosítása</label><br>
+                <input type="text" name="v_nev" placeholder="A váltó régi neve"><br>
+                <input type="text" name="v_nev_uj" placeholder="A váltó új neve"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő váltó törlése</label><br>
+                <input type="text" name="v_nev" placeholder="A törölni kívánt váltó neve"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Uj vázméret feltöltése</label><br>
+                <input type="text" name="vaz_nev" placeholder="Az uj vázméret neve"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő vázméret módosítása</label><br>
+                <input type="text" name="vaz_nev" placeholder="A vázméret régi neve"><br>
+                <input type="text" name="vaz_nev_uj" placeholder="A vázméret új neve"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő vázméret törlése</label><br>
+                <input type="text" name="vaz_nev" placeholder="A törölni kívánt vázméret neve"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col">
+
+            <form>
+                <label>Uj felniátmérő feltöltése</label><br>
+                <input type="text" name="felniat_nev" placeholder="Az uj felniátmérő"><br>
+                <input type="button" value="Feltöltés" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő felniátmérő módosítása</label><br>
+                <input type="text" name="felniat_nev" placeholder="A régi felniátmérő"><br>
+                <input type="text" name="felniat_nev_uj" placeholder="Az új felniátmérő"><br>
+                <input type="button" value="Módosítás" onclick="">
+            </form>
+
+        </div>
+
+        <div class="col">
+
+            <form>
+                <label>Meglévő felniátmérő törlése</label><br>
+                <input type="text" name="vaz_nev" placeholder="A törölni kívánt felniátmérő"><br>
+                <input type="button" value="Törlés" onclick="">
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <iframe id="footer" src="./components/footer.html" frameborder="0"></iframe>
+</body>
+
+</html>

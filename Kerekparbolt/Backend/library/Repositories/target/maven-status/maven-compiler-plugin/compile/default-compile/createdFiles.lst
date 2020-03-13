@@ -1,0 +1,9 @@
+repository\PurchaseRepository.class
+repository\ShifterRepository.class
+repository\UserRepository.class
+repository\BicycleRepository.class
+repository\BrandRepository.class
+repository\SizeRepository.class
+repository\TypeRepository.class
+common\DBConnection.class
+repository\WheelDiameterRepository.class

@@ -1,0 +1,8 @@
+service\BicycleService.class
+service\PurchaseService.class
+service\BrandService.class
+service\ShifterService.class
+service\SizeService.class
+service\UserService.class
+service\WheelDiameterService.class
+service\TypeService.class
